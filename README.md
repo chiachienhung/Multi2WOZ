@@ -10,7 +10,12 @@ Research on (multi-domain) task-oriented dialog (TOD) has predominantly focused 
 ## Citation
 If you use any source codes, or datasets included in this repo in your work, please cite the following paper:
 <pre>
-
+@article{hung2022multi2woz,
+  title={Multi2WOZ: A robust multilingual dataset and conversational pretraining for task-oriented dialog},
+  author={Hung, Chia-Chien and Lauscher, Anne and Vuli{\'c}, Ivan and Ponzetto, Simone Paolo and Glava{\v{s}}, Goran},
+  journal={arXiv preprint arXiv:2205.10400},
+  year={2022}
+}
 </pre>
 
 ## Pretrained Models
