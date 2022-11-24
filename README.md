@@ -2,7 +2,7 @@
 
 Authors: Chia-Chien Hung, Anne Lauscher, Ivan Vulić, Simone Paolo Ponzetto, Goran Glavaš
 
-NAACL 2022 Main Conference: Coming soon
+NAACL 2022 Main Conference: https://aclanthology.org/2022.naacl-main.270/
 
 ## Introduction
 Research on (multi-domain) task-oriented dialog (TOD) has predominantly focused on the English language, primarily due to the shortage of robust TOD datasets in other languages, preventing the systematic investigation of cross-lingual transfer for this crucial NLP application area. In this work, we introduce Multi2WOZ, a new multilingual multi-domain TOD dataset, derived from the well-established English dataset MultiWOZ, that spans four typologically diverse languages: Chinese, German, Arabic, and Russian. In contrast to concurrent efforts, Multi2WOZ contains gold-standard dialogs in target languages that are directly comparable with development and test portions of the English dataset, enabling reliable and comparative estimates of cross-lingual transfer performance for TOD. This enables us to detect and explore crucial challenges for TOD cross-lingually. We then introduce a new framework for multilingual conversational specialization of pretrained language models (PrLMs) that aims to facilitate cross-lingual transfer for arbitrary downstream TOD tasks. Using such conversational PrLMs specialized for concrete target languages, we systematically benchmark a number of zero-shot and few-shot cross-lingual transfer approaches on two standard TOD tasks: Dialog State Tracking and Response Retrieval. Our experiments show that, in most setups, the best performance entails the combination of (i) conversational specialization in the target language and (ii) few-shot transfer for the concrete TOD task. Most importantly, we show that our conversational specialization in the target language allows for a much more sample-efficient few-shot transfer for downstream TOD tasks.
@@ -10,12 +10,23 @@ Research on (multi-domain) task-oriented dialog (TOD) has predominantly focused 
 ## Citation
 If you use any source codes, or datasets included in this repo in your work, please cite the following paper:
 <pre>
-@article{hung2022multi2woz,
-  title={Multi2WOZ: A robust multilingual dataset and conversational pretraining for task-oriented dialog},
-  author={Hung, Chia-Chien and Lauscher, Anne and Vuli{\'c}, Ivan and Ponzetto, Simone Paolo and Glava{\v{s}}, Goran},
-  journal={arXiv preprint arXiv:2205.10400},
-  year={2022}
+@inproceedings{hung-etal-2022-multi2woz,
+    title = "{M}ulti2{WOZ}: A Robust Multilingual Dataset and Conversational Pretraining for Task-Oriented Dialog",
+    author = "Hung, Chia-Chien  and
+      Lauscher, Anne  and
+      Vuli{\'c}, Ivan  and
+      Ponzetto, Simone  and
+      Glava{\v{s}}, Goran",
+    booktitle = "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.naacl-main.270",
+    doi = "10.18653/v1/2022.naacl-main.270",
+    pages = "3687--3703"
 }
+
 </pre>
 
 ## Pretrained Models
