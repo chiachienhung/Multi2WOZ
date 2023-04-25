@@ -4,7 +4,7 @@ This dataset is created for intermediate training purpose, in order to encode kn
 You can simply download the full data from [here](https://drive.google.com/drive/folders/18WSQQp6omwgR1KHzmyw13KQBBdd3voHB?usp=sharing) or you can modify the scripts for your own usage.
 
 
-## Download files from OpenSubtitles
+## Download files from CC-100
 ```
 * Chinese
 wget https://data.statmt.org/cc-100/zh-Hans.txt.xz -O zh-Hans.txt.xz
